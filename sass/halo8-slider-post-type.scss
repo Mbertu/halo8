@@ -1,0 +1,32 @@
+@import "compass";
+
+#halo8SlidesContainer{
+	.slider_image_container{
+		margin: 10px 0;
+		background: #fff;
+		padding:15px;
+		border:1px solid #eee;
+	}
+
+	.input_container{
+		margin-bottom:5px;
+		height: 35px;
+  		line-height: 35px;
+  		input[type="text"]{
+  			margin-right: 15px;
+  		}
+	}
+
+	.image_number,
+	.input_fields,
+	.image{
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 15px;
+	}
+
+	.delete_button{
+		display: inline-block;
+		vertical-align: top;
+	}
+}

@@ -1,0 +1,606 @@
+# Copyright (C) 4-16-2015
+# This file is distributed under the same license as the halo8-full-screen-slider package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/plugin-name\n"
+"POT-Creation-Date: 2015-06-15 21:24+0100\n"
+"PO-Revision-Date: 2015-07-06 21:46+0100\n"
+"Last-Translator: Michele Bertuccioli <email@example.com>\n"
+"Language-Team: ENGLISH <michele@bertuccioli.me>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:68
+msgid "Invalid animation."
+msgstr "Animazione non valida."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:74
+msgid "Invalid transition."
+msgstr "Transizione non valida."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:80
+msgid "Invalid horizontal align."
+msgstr "Allineamento orizzontale no valido."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:86
+msgid "Invalid vertical align."
+msgstr "Allineamento verticale non valido."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:92
+msgid "Invalid position."
+msgstr "Posizione non valida."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:99
+msgid "Animation duration must be an integer."
+msgstr "La durata dell’animazione deve essere un intero."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:102
+msgid "Animation duration is milliseconds value, your input is too small."
+msgstr ""
+"La durata delle animazioni è in millisecondi, il valore inserito è troppo piccolo."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:110
+msgid "Transition duration must be an integer."
+msgstr "La durata della transizione deve essere un intero."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:113
+msgid "Transition duration is milliseconds value, your input is too small."
+msgstr ""
+"La durata delle transizioni è in millisecondi, il valore inserito è troppo piccolo."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:121
+msgid "Delay must be an integer."
+msgstr "Il ritardo deve essere un intero."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:124
+msgid "Delay is milliseconds value, your input is too small."
+msgstr "La durata del ritardo è in millisecondi, il valore inserito è troppo piccolo."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:137
+#: classes/controllers/halo8-slider-metabox-controller.php:113
+#: classes/controllers/halo8-slider-taxonomies-controller.php:101
+msgid "Transitions"
+msgstr "Transizioni"
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:142
+#: classes/controllers/halo8-slider-metabox-controller.php:118
+#: classes/controllers/halo8-slider-taxonomies-controller.php:106
+msgid "Animations"
+msgstr "Animazioni"
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:151
+#: classes/controllers/halo8-slider-metabox-controller.php:123
+#: classes/controllers/halo8-slider-taxonomies-controller.php:111
+msgid "Choose between animation or transition for slide change montion."
+msgstr "Scegli tra animazionie o transizione per il movimento di cambio slide."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:181
+msgid "Choose animation"
+msgstr "Scegli l’animazione"
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:183
+msgid "Choose the animation for the slides."
+msgstr "Scegli l’animazione per le slide."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:193
+#: classes/controllers/halo8-slider-metabox-controller.php:163
+#: classes/controllers/halo8-slider-taxonomies-controller.php:151
+msgid "Animation duration"
+msgstr "Durata dell’animazione."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:195
+msgid "Choose the animation duration in milliseconds. Default 5000"
+msgstr "Scegli la durata dell’animazione espressa in millisecondi. Default 5000"
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:224
+msgid "Choose transition"
+msgstr "Scegli la transizione"
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:226
+msgid "Choose the transition for the slides."
+msgstr "Scegli la transizione per le slide."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:235
+msgid "Transition duration"
+msgstr "Durata della transizione"
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:237
+msgid "Choose the transition duration in milliseconds. Default 1000"
+msgstr "Scegli la durata della transizione espressa in millisecondo. Default 1000"
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:250
+msgid "Choose the delay between animations or transitions in milliseconds. Default 5000"
+msgstr ""
+"Scegli i ritardo tra le animazioni o le tradizioni espresso in millisecondi. Default "
+"5000"
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:264
+msgid "Check to activate the shuffle mode."
+msgstr "Seleziona per attivare la modalità casuale."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:278
+#: classes/controllers/halo8-slider-metabox-controller.php:83
+#: classes/controllers/halo8-slider-taxonomies-controller.php:71
+msgid "Check to show controls arrow."
+msgstr "Seleziona per mostrare le frecce di controllo."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:292
+msgid "Check to activate the CSS3 background option cover for the background images."
+msgstr "Seleziona per attivare l’opzione cover CSS3 per l’immagine di background."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:306
+msgid "Check to activate the autoplay mode."
+msgstr "Seleziona per attivare la modalità autoplay."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:328
+msgid "Background horizontal alignment."
+msgstr "Allineamento orizzontale del background."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:350
+msgid "Background vertical alignment."
+msgstr "Allineamento verticale del background."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:364
+msgid "Check to show the timer bar."
+msgstr "Seleziona per mostrare la time bar."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:388
+msgid "Images slider selection."
+msgstr "Selezione delle immagini di slide."
+
+#: classes/abstracts/halo8-abstract-options-page-controller.php:410
+msgid "Slideshow position."
+msgstr "Posizione dello slideshow."
+
+#: classes/controllers/halo8-404-options-page-controller.php:6
+#: classes/controllers/halo8-404-options-page-controller.php:7
+#: classes/controllers/halo8-archives-options-page-controller.php:6
+#: classes/controllers/halo8-archives-options-page-controller.php:7
+#: classes/controllers/halo8-authors-options-page-controller.php:6
+#: classes/controllers/halo8-authors-options-page-controller.php:7
+#: classes/controllers/halo8-search-options-page-controller.php:6
+#: classes/controllers/halo8-search-options-page-controller.php:7
+#, php-format
+msgid "Slider %s"
+msgstr "Slide %s"
+
+#: classes/controllers/halo8-404-options-page-controller.php:17
+#: classes/controllers/halo8-archives-options-page-controller.php:17
+#: classes/controllers/halo8-authors-options-page-controller.php:17
+#: classes/controllers/halo8-search-options-page-controller.php:17
+#, php-format
+msgid "Enable plugin for %s pages"
+msgstr "Abilita il plugin per la pagina %s"
+
+#: classes/controllers/halo8-404-options-page-controller.php:18
+#: classes/controllers/halo8-archives-options-page-controller.php:18
+#: classes/controllers/halo8-authors-options-page-controller.php:18
+#: classes/controllers/halo8-search-options-page-controller.php:18
+#, php-format
+msgid "Configurations for %s pages"
+msgstr "Configurazione per la pagina %s"
+
+#: classes/controllers/halo8-404-options-page-controller.php:19
+#: classes/controllers/halo8-archives-options-page-controller.php:19
+#: classes/controllers/halo8-search-options-page-controller.php:19
+#, php-format
+msgid "Slider for %s pages"
+msgstr "Slide per la pagina %s"
+
+#: classes/controllers/halo8-404-options-page-controller.php:24
+#: classes/controllers/halo8-archives-options-page-controller.php:24
+#: classes/controllers/halo8-authors-options-page-controller.php:23
+#: classes/controllers/halo8-search-options-page-controller.php:24
+msgid "Enable or disabel the plugin for this page"
+msgstr "Abilita o disabilita il plugin per questa pagina"
+
+#: classes/controllers/halo8-404-options-page-controller.php:26
+#: classes/controllers/halo8-archives-options-page-controller.php:26
+#: classes/controllers/halo8-authors-options-page-controller.php:25
+#: classes/controllers/halo8-general-options-page-controller.php:35
+#: classes/controllers/halo8-search-options-page-controller.php:26
+#: classes/controllers/halo8-slider-metabox-controller.php:79
+#: classes/controllers/halo8-slider-taxonomies-controller.php:67
+msgid "Show controls"
+msgstr "Mostra i controlli"
+
+#: classes/controllers/halo8-404-options-page-controller.php:27
+#: classes/controllers/halo8-archives-options-page-controller.php:27
+#: classes/controllers/halo8-authors-options-page-controller.php:26
+#: classes/controllers/halo8-general-options-page-controller.php:36
+#: classes/controllers/halo8-search-options-page-controller.php:27
+#: classes/controllers/halo8-slider-metabox-controller.php:70
+msgid "Slideshow position"
+msgstr "Posizione dello slideshow"
+
+#: classes/controllers/halo8-404-options-page-controller.php:28
+#: classes/controllers/halo8-archives-options-page-controller.php:28
+#: classes/controllers/halo8-authors-options-page-controller.php:27
+#: classes/controllers/halo8-general-options-page-controller.php:37
+#: classes/controllers/halo8-search-options-page-controller.php:28
+msgid "Choose if wonna use animations or transitions"
+msgstr "Seleziona se usare le animazioni o le transizioni"
+
+#: classes/controllers/halo8-404-options-page-controller.php:29
+#: classes/controllers/halo8-archives-options-page-controller.php:29
+#: classes/controllers/halo8-authors-options-page-controller.php:28
+#: classes/controllers/halo8-general-options-page-controller.php:38
+#: classes/controllers/halo8-search-options-page-controller.php:29
+#: classes/controllers/halo8-slider-metabox-controller.php:130
+#: classes/controllers/halo8-slider-taxonomies-controller.php:118
+msgid "Transition"
+msgstr "Transizione"
+
+#: classes/controllers/halo8-404-options-page-controller.php:30
+#: classes/controllers/halo8-archives-options-page-controller.php:30
+#: classes/controllers/halo8-authors-options-page-controller.php:29
+#: classes/controllers/halo8-general-options-page-controller.php:39
+#: classes/controllers/halo8-search-options-page-controller.php:30
+#: classes/controllers/halo8-slider-metabox-controller.php:152
+#: classes/controllers/halo8-slider-taxonomies-controller.php:140
+msgid "Animation"
+msgstr "Animazione"
+
+#: classes/controllers/halo8-404-options-page-controller.php:31
+#: classes/controllers/halo8-archives-options-page-controller.php:31
+#: classes/controllers/halo8-authors-options-page-controller.php:30
+#: classes/controllers/halo8-general-options-page-controller.php:40
+#: classes/controllers/halo8-search-options-page-controller.php:31
+msgid "Delay between animations / transitiosn"
+msgstr "Ritardo tra le animazioni / transizioni"
+
+#: classes/controllers/halo8-404-options-page-controller.php:32
+#: classes/controllers/halo8-archives-options-page-controller.php:32
+#: classes/controllers/halo8-authors-options-page-controller.php:31
+#: classes/controllers/halo8-general-options-page-controller.php:41
+#: classes/controllers/halo8-search-options-page-controller.php:32
+#: classes/controllers/halo8-slider-metabox-controller.php:185
+#: classes/controllers/halo8-slider-taxonomies-controller.php:173
+msgid "Autoplay"
+msgstr "Autoplay"
+
+#: classes/controllers/halo8-404-options-page-controller.php:33
+#: classes/controllers/halo8-archives-options-page-controller.php:33
+#: classes/controllers/halo8-authors-options-page-controller.php:32
+#: classes/controllers/halo8-general-options-page-controller.php:42
+#: classes/controllers/halo8-search-options-page-controller.php:33
+#: classes/controllers/halo8-slider-metabox-controller.php:196
+#: classes/controllers/halo8-slider-taxonomies-controller.php:184
+msgid "Shuffle"
+msgstr "Shuffle"
+
+#: classes/controllers/halo8-404-options-page-controller.php:34
+#: classes/controllers/halo8-archives-options-page-controller.php:34
+#: classes/controllers/halo8-authors-options-page-controller.php:33
+#: classes/controllers/halo8-general-options-page-controller.php:43
+#: classes/controllers/halo8-search-options-page-controller.php:34
+#: classes/controllers/halo8-slider-metabox-controller.php:207
+#: classes/controllers/halo8-slider-taxonomies-controller.php:195
+msgid "Cover"
+msgstr "Cover"
+
+#: classes/controllers/halo8-404-options-page-controller.php:35
+#: classes/controllers/halo8-archives-options-page-controller.php:35
+#: classes/controllers/halo8-authors-options-page-controller.php:34
+#: classes/controllers/halo8-general-options-page-controller.php:44
+#: classes/controllers/halo8-search-options-page-controller.php:35
+msgid "Horizontal align"
+msgstr "Allineamento orizzontale"
+
+#: classes/controllers/halo8-404-options-page-controller.php:36
+#: classes/controllers/halo8-archives-options-page-controller.php:36
+#: classes/controllers/halo8-authors-options-page-controller.php:35
+#: classes/controllers/halo8-general-options-page-controller.php:45
+#: classes/controllers/halo8-search-options-page-controller.php:36
+msgid "Vertical align"
+msgstr "Allineamento verticale"
+
+#: classes/controllers/halo8-404-options-page-controller.php:37
+#: classes/controllers/halo8-archives-options-page-controller.php:37
+#: classes/controllers/halo8-authors-options-page-controller.php:36
+#: classes/controllers/halo8-general-options-page-controller.php:46
+#: classes/controllers/halo8-search-options-page-controller.php:37
+msgid "Show timer bar"
+msgstr "Mostra la timer bar"
+
+#: classes/controllers/halo8-404-options-page-controller.php:39
+msgid "404 page slider"
+msgstr "Slide per la pagina 404"
+
+#: classes/controllers/halo8-404-options-page-controller.php:78
+#: classes/controllers/halo8-archives-options-page-controller.php:78
+#: classes/controllers/halo8-authors-options-page-controller.php:75
+#: classes/controllers/halo8-search-options-page-controller.php:78
+#: classes/controllers/halo8-slider-metabox-controller.php:64
+#: classes/controllers/halo8-slider-taxonomies-controller.php:62
+msgid "Check to activate the plugin for this page."
+msgstr "Seleziona per attivare il plugin in questa pagina."
+
+#: classes/controllers/halo8-404-options-page-controller.php:90
+#: classes/controllers/halo8-archives-options-page-controller.php:90
+#: classes/controllers/halo8-authors-options-page-controller.php:87
+#: classes/controllers/halo8-general-options-page-controller.php:208
+#: classes/controllers/halo8-search-options-page-controller.php:90
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Non hai permessi sufficienti per accedere a questa pagina."
+
+#: classes/controllers/halo8-archives-options-page-controller.php:39
+msgid "Archives page slider"
+msgstr "Slide per la pagina archivi"
+
+#: classes/controllers/halo8-general-options-page-controller.php:5
+#: classes/controllers/halo8-general-options-page-controller.php:6
+msgid "Full Screen Slider Options"
+msgstr "Opzioni Slider Full Screen"
+
+#: classes/controllers/halo8-general-options-page-controller.php:11
+#: classes/controllers/halo8-general-options-page-controller.php:12
+msgid "General"
+msgstr "Generali"
+
+#: classes/controllers/halo8-general-options-page-controller.php:22
+msgid "Global configuration"
+msgstr "Configurazioni globali"
+
+#: classes/controllers/halo8-general-options-page-controller.php:23
+msgid "Overwritten global configuration"
+msgstr "Configurazioni globali sovrascrivibili"
+
+#: classes/controllers/halo8-general-options-page-controller.php:24
+msgid "Generic slider"
+msgstr "Slider generico"
+
+#: classes/controllers/halo8-general-options-page-controller.php:25
+msgid "Exclude Posts Type"
+msgstr "Escludi tipi di post"
+
+#: classes/controllers/halo8-general-options-page-controller.php:26
+msgid "Exclude Taxonomies"
+msgstr "Escludi tassonomie"
+
+#: classes/controllers/halo8-general-options-page-controller.php:31
+msgid "Images preload"
+msgstr "Preload delle immagini"
+
+#: classes/controllers/halo8-general-options-page-controller.php:32
+msgid "Images Overlay"
+msgstr "Immagine di overlay "
+
+#: classes/controllers/halo8-general-options-page-controller.php:33
+msgid "Main color"
+msgstr "Colore principale"
+
+#: classes/controllers/halo8-general-options-page-controller.php:48
+msgid "Default slider"
+msgstr "Slider default"
+
+#: classes/controllers/halo8-general-options-page-controller.php:50
+msgid "Post Types to exclude"
+msgstr "Tipi di post da escludere"
+
+#: classes/controllers/halo8-general-options-page-controller.php:51
+msgid "Taxonomies to exclude"
+msgstr "Tassonomie da escludere"
+
+#: classes/controllers/halo8-general-options-page-controller.php:63
+#: classes/controllers/halo8-general-options-page-controller.php:67
+#: classes/controllers/halo8-general-options-page-controller.php:70
+msgid "Inconsistece between type of movements and input fileds."
+msgstr "Inconsistenza tra tipo di movimento e input."
+
+#: classes/controllers/halo8-general-options-page-controller.php:81
+msgid "Wrong input fot base color. Only hex values are valid. Ex:#ffffff"
+msgstr ""
+"Valore per il colore di base errato. Solo valori esadecimali sono validi. Es: #ffffff"
+
+#: classes/controllers/halo8-general-options-page-controller.php:86
+msgid "Invalid overlay."
+msgstr "Omerali non valido."
+
+#: classes/controllers/halo8-general-options-page-controller.php:111
+msgid "Check to activete the preload funciton."
+msgstr "Seleziona per attivare la funzione di preload."
+
+#: classes/controllers/halo8-general-options-page-controller.php:120
+msgid "none"
+msgstr "nessuno"
+
+#: classes/controllers/halo8-general-options-page-controller.php:135
+msgid "Select the overlay pattern to put over the images."
+msgstr "Seleziona il pattern da mettere sopra l’immagine."
+
+#: classes/controllers/halo8-general-options-page-controller.php:147
+msgid "Input the main theme color. es:#ffffff."
+msgstr "Inserisci il colore principale per il tema. Es: #ffffff."
+
+#: classes/controllers/halo8-general-options-page-controller.php:168
+msgid "Check to disable Halo8 plugin for this post type."
+msgstr "Seleziona per disabilitare il plugin Halo8 per questo tipo di post."
+
+#: classes/controllers/halo8-general-options-page-controller.php:191
+msgid "Check to disable Halo8 plugin for this taxonomy."
+msgstr "Seleziona per disabilitare il plugin Halo8 per questa tassonomia."
+
+#: classes/controllers/halo8-search-options-page-controller.php:39
+msgid "Search page slider"
+msgstr "Slide per la pagina di ricerca"
+
+#: classes/controllers/halo8-slider-metabox-controller.php:33
+msgid "Slider configuration"
+msgstr "Configurazione slider"
+
+#: classes/controllers/halo8-slider-metabox-controller.php:60
+#: classes/controllers/halo8-slider-taxonomies-controller.php:58
+msgid "Enabled"
+msgstr "Abilita"
+
+#: classes/controllers/halo8-slider-metabox-controller.php:73
+msgid "Select the position for the slideshow."
+msgstr "Seleziona la posizione per lo slideshow."
+
+#: classes/controllers/halo8-slider-metabox-controller.php:91
+#: classes/controllers/halo8-slider-post-type-controller.php:28
+#: classes/controllers/halo8-slider-post-type-controller.php:30
+#: classes/controllers/halo8-slider-taxonomies-controller.php:79
+#: classes/controllers/halo8-slider-users-controller.php:51
+msgid "Slider"
+msgstr "Slider"
+
+#: classes/controllers/halo8-slider-metabox-controller.php:93
+#: classes/controllers/halo8-slider-taxonomies-controller.php:81
+msgid "Select the slider for this page."
+msgstr "Seleziona lo slide per questa pagina"
+
+#: classes/controllers/halo8-slider-metabox-controller.php:99
+#: classes/controllers/halo8-slider-taxonomies-controller.php:87
+msgid "Default"
+msgstr "Default"
+
+#: classes/controllers/halo8-slider-metabox-controller.php:103
+#: classes/controllers/halo8-slider-taxonomies-controller.php:91
+msgid "Check to use the default configurations."
+msgstr "Seleziona per utilizzare la configurazione di default"
+
+#: classes/controllers/halo8-slider-metabox-controller.php:134
+#: classes/controllers/halo8-slider-taxonomies-controller.php:122
+msgid "Select the transition effect."
+msgstr "Seleziona l’effetto di transizione."
+
+#: classes/controllers/halo8-slider-metabox-controller.php:141
+#: classes/controllers/halo8-slider-taxonomies-controller.php:129
+msgid "Transition duraiton"
+msgstr "Durata transizione"
+
+#: classes/controllers/halo8-slider-metabox-controller.php:145
+#: classes/controllers/halo8-slider-taxonomies-controller.php:133
+msgid "Input the transition duration."
+msgstr "Inserisci la durata della transizione."
+
+#: classes/controllers/halo8-slider-metabox-controller.php:156
+#: classes/controllers/halo8-slider-taxonomies-controller.php:144
+msgid "Select the animation effect."
+msgstr "Seleziona l’effetto di animazione."
+
+#: classes/controllers/halo8-slider-metabox-controller.php:167
+#: classes/controllers/halo8-slider-taxonomies-controller.php:155
+msgid "Input the animation duration."
+msgstr "Inserisci la durata dell’animazione."
+
+#: classes/controllers/halo8-slider-metabox-controller.php:174
+#: classes/controllers/halo8-slider-taxonomies-controller.php:162
+msgid "Delay"
+msgstr "Ritardo"
+
+#: classes/controllers/halo8-slider-metabox-controller.php:178
+#: classes/controllers/halo8-slider-taxonomies-controller.php:166
+msgid "Delay between animation/transitions."
+msgstr "Ritardo tra animazioni / transizioni."
+
+#: classes/controllers/halo8-slider-metabox-controller.php:189
+#: classes/controllers/halo8-slider-taxonomies-controller.php:177
+msgid "Check to activate autoplay."
+msgstr "Seleziona per attivare l’autoplay."
+
+#: classes/controllers/halo8-slider-metabox-controller.php:200
+#: classes/controllers/halo8-slider-taxonomies-controller.php:188
+msgid "Check to activate random order."
+msgstr "Seleziona per attivare l’ordinamento casuale."
+
+#: classes/controllers/halo8-slider-metabox-controller.php:211
+#: classes/controllers/halo8-slider-metabox-controller.php:244
+#: classes/controllers/halo8-slider-taxonomies-controller.php:199
+#: classes/controllers/halo8-slider-taxonomies-controller.php:232
+msgid "Check to use cover background css3 property."
+msgstr "Seleziona per utilizzare la proprietà CSS3 cover per il background."
+
+#: classes/controllers/halo8-slider-metabox-controller.php:218
+#: classes/controllers/halo8-slider-taxonomies-controller.php:206
+msgid "Horizontal Align"
+msgstr "Allineamento orizzonatale"
+
+#: classes/controllers/halo8-slider-metabox-controller.php:222
+#: classes/controllers/halo8-slider-taxonomies-controller.php:210
+msgid "Select the value for horizontal align."
+msgstr "Seleziona il valore per l’allineamento orizzontale."
+
+#: classes/controllers/halo8-slider-metabox-controller.php:229
+#: classes/controllers/halo8-slider-taxonomies-controller.php:217
+msgid "Vertical Align"
+msgstr "Allineamento verticale"
+
+#: classes/controllers/halo8-slider-metabox-controller.php:233
+#: classes/controllers/halo8-slider-taxonomies-controller.php:221
+msgid "Select the value for vertical align."
+msgstr "Seleziona il valore per l’allineamento orizzontale."
+
+#: classes/controllers/halo8-slider-metabox-controller.php:240
+#: classes/controllers/halo8-slider-taxonomies-controller.php:228
+msgid "Timer"
+msgstr "Timer"
+
+#: classes/controllers/halo8-slider-post-type-controller.php:27
+#: classes/controllers/halo8-slider-post-type-controller.php:29
+msgid "Sliders"
+msgstr "Slider"
+
+#: classes/controllers/halo8-slider-post-type-controller.php:31
+msgid "Add new"
+msgstr "Aggiungi nuovo"
+
+#: classes/controllers/halo8-slider-post-type-controller.php:32
+msgid "Add new slider"
+msgstr "Aggiungi nuovo slide"
+
+#: classes/controllers/halo8-slider-post-type-controller.php:33
+msgid "New slider"
+msgstr "Nuovo sider"
+
+#: classes/controllers/halo8-slider-post-type-controller.php:34
+msgid "Modify slider"
+msgstr "Modifica slider"
+
+#: classes/controllers/halo8-slider-post-type-controller.php:35
+msgid "View slider"
+msgstr "Visualizza slide"
+
+#: classes/controllers/halo8-slider-post-type-controller.php:36
+msgid "All sliders"
+msgstr "Tutti gli slider"
+
+#: classes/controllers/halo8-slider-post-type-controller.php:37
+msgid "Search slider"
+msgstr "Cerca slider"
+
+#: classes/controllers/halo8-slider-post-type-controller.php:38
+msgid "No slider found"
+msgstr "Nessuno slider trovato"
+
+#: classes/controllers/halo8-slider-post-type-controller.php:39
+msgid "No slider in the trash"
+msgstr "Nessuno slider nel cestino"
+
+#: classes/controllers/halo8-slider-post-type-controller.php:59
+msgid "Images for this slider"
+msgstr "Immagini per lo slider"
+
+#: classes/controllers/halo8-slider-post-type-controller.php:85
+msgid "No images for this slideshow."
+msgstr "Nessuna immagine per lo slideshow."
+
+#: classes/controllers/halo8-slider-taxonomies-controller.php:48
+#: classes/controllers/halo8-slider-users-controller.php:39
+msgid "Halo8 Full Screen Slider Options"
+msgstr "Opzioni Halo8 Slider Full Screen"
+
+#: classes/controllers/halo8-slider-users-controller.php:53
+msgid "Select the slider for this user."
+msgstr "Seleziona lo slider per l’utente."

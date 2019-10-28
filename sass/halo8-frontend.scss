@@ -1,0 +1,40 @@
+#halo8-full-screen-slider{
+	display:none;
+}
+
+#halo8-full-screen-slider-container.fixed{
+	position:fixed;
+	z-index:-1;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+.slider_controls_container{
+	.left{
+		background: url('../images/controls.png') 0 center no-repeat;
+		height:100%;
+		width:52px;
+        position:absolute;
+        cursor:pointer;
+		left: 10px;
+	}
+
+	.right{
+		background: url('../images/controls.png') -52px center no-repeat;
+		height:100%;
+		width:52px;
+        position:absolute;
+        cursor:pointer;
+		right: 10px;
+	}
+}
+
+.slide_full_link{
+    position: absolute;
+    top: 0;
+	right: 15%;
+	left: 10%;
+	bottom: 20%;
+}

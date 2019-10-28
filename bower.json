@@ -1,0 +1,7 @@
+{
+  "name": "halo8-full-screen-slider",
+  "version": "0.0.0",
+  "dependencies": {
+    "vegas": "~2.*"
+  }
+}
